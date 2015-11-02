@@ -11,7 +11,7 @@ use Symfony\Component\DependencyInjection\ContainerInterface;
  * if it cannot find its services.
  *
  * Class SymfonyContainerWithZFFallback
- * @package Reliv\SymfonizeZF\ContainerBridge
+ * @package Reliv\SymfonizeZFContainerBridge
  */
 class SymfonyContainerWithZFFallback extends ContainerBuilder
 {

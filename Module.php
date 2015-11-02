@@ -63,10 +63,6 @@ class Module
             'route_manager' => [
                 'abstract_factories' => [
                     'Reliv\SymfonizeZFContainerBridge\ContainerBridge'
-                ],
-                'invokables' => [
-                    'symfonize_zf.route_bridge' =>
-                        'Reliv\SymfonizeZF\RouteBridge\RouteBridge'
                 ]
             ],
             'serializers' => [
