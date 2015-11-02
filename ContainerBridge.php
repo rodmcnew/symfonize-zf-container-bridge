@@ -2,7 +2,6 @@
 
 namespace Reliv\SymfonizeZFContainerBridge;
 
-use Reliv\SymfonizeZF\Module;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 use Zend\ServiceManager\AbstractFactoryInterface;
 use Zend\ServiceManager\ServiceLocatorInterface;

@@ -2,8 +2,26 @@
 
 namespace Reliv\SymfonizeZFContainerBridge;
 
+use Zend\Mvc\MvcEvent;
+
 class Module
 {
+    public static $zendServiceManager;
+
+    /**
+     * Runs when ZF boots
+     *
+     * @param MvcEvent $e
+     */
+    public function onBootstrap(MvcEvent $e)
+    {
+        /**
+         * Ensure the container bridge can get to the Zend Service Manager
+         * in all cases.
+         */
+        self::$zendServiceManager = $e->getApplication()->getServiceManager();
+    }
+
     /**
      * Returns the ZF config needed to make the container bridge work.
      *
