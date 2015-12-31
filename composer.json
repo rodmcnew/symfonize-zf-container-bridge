@@ -1,5 +1,5 @@
 {
-  "name": "reliv/symfonize-zf-container-bridge",
+  "name": "rodmcnew/symfonize-zf-container-bridge",
   "description": "Allows you to use the Symfony 2 DI container in Zend Framework 2 apps",
   "require": {
     "php": ">=5.5.0",
