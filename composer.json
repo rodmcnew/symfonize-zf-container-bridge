@@ -1,6 +1,7 @@
 {
   "name": "rodmcnew/symfonize-zf-container-bridge",
   "description": "Allows you to use the Symfony 2 DI container in Zend Framework 2 apps",
+  "license": "MIT",
   "require": {
     "php": ">=5.5.0",
     "symfony/dependency-injection": ">=2.7.5"
